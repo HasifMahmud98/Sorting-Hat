@@ -1,0 +1,151 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Battle of the Houses - The Sorting Hat</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://code.createjs.com/1.0.0/soundjs.min.js"></script>
+	</head>
+
+	<body translate="no" onload="loadSound();" onclick="playSound()">
+		<div class="main-content__wrapper">
+			<div class="main-content status-1">
+				<div class="sorting-hat">
+					<div class="sorting-hat__top"></div>
+					<div class="sorting-hat__eye left"></div>
+					<div class="sorting-hat__eye right"></div>
+					<div class="sorting-hat__mouth"></div>
+					<div class="sorting-hat__base"></div>
+				</div>
+				<div class="avatar">
+					<div class="avatar__hair"></div>
+					<div class="avatar__head">
+						<div class="avatar__eyes left"></div>
+						<div class="avatar__eyes right"></div>
+						<div class="avatar__mouth animate"></div>
+					</div>
+					<div class="avatar__ears left"></div>
+					<div class="avatar__ears right"></div>
+					<div class="avatar__coat">
+						<div class="avatar__shirt">
+							<div class="avatar__tie"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sort-me">
+					<button
+						class="sort-house sort-button js-sort bg-transparent"
+					>
+						<p>Sort <strong class="next-member"></strong>!</p>
+					</button>
+				</div>
+			</div>
+			<div class="main-content status-pending">
+				
+			</div>
+			<div class="main-content status-2">
+				<div class="display-f">
+					<div class="comment"></div>
+				<iframe src="https://giphy.com/embed/W4ihcRVRVf75SDN3ia" width="1000" height="1000" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+				</div>
+				
+				<!-- <div class="sorting-hat">
+					<div class="sorting-hat__top"></div>
+					<div class="sorting-hat__eye left"></div>
+					<div class="sorting-hat__eye right"></div>
+					<div class="sorting-hat__mouth"></div>
+					<div class="sorting-hat__base"></div>
+				</div> -->
+			</div>
+			<div class="main-content status-3">
+				<div class="house-welcome">
+					<img
+						class="ravenclaw-logo flag-r house-logos"
+						src="blue.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="ravenclaw-logo flag-l house-logos"
+						src="blue.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="ravenclaw-logo house-logos"
+						src="ravenclaw.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="gryffindor-logo flag-r house-logos"
+						src="red.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="gryffindor-logo flag-l house-logos"
+						src="red.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="gryffindor-logo house-logos"
+						src="gryffindor.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="slytherin-logo flag-r house-logos"
+						src="green.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="slytherin-logo flag-l house-logos"
+						src="green.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="slytherin-logo house-logos"
+						src="slytherin.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="hufflepuff-logo flag-r house-logos"
+						src="yellow.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="hufflepuff-logo flag-l house-logos"
+						src="yellow.svg"
+						alt="Ravenclaw"
+					/>
+					<img
+						class="hufflepuff-logo house-logos"
+						src="hufflepuff.svg"
+						alt="Ravenclaw"
+					/>
+					<p class="congrats">
+						Congratulations, <strong class="next-member"></strong>!
+					</p>
+					<p style="font-size: 48px">You're a</p>
+					<strong
+						><p class="house-name"></p>
+						<p class="house-traits ravenclaw-traits">
+							WIT, LEARNING, WISDOM
+						</p>
+						<p class="house-traits gryffindor-traits">
+							COURAGE, BRAVERY, DETERMINATION
+						</p>
+						<p class="house-traits slytherin-traits">
+							PRIDE, AMBITION, CUNNING
+						</p>
+						<p class="house-traits hufflepuff-traits">
+							DEDICATION, PATIENCE, LOYALTY
+						</p>
+					</strong>
+				</div>
+			</div>
+		</div>
+
+		<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="members.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
